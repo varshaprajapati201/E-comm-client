@@ -1,0 +1,55 @@
+.about{
+    position: relative;
+img{
+    width: 100vw;
+        height: 600px;
+        object-fit:cover;
+        position: relative;
+}
+.heading{
+    top: 300px;
+    left: 50%;
+    width: 500px;
+    position: absolute;
+    display:flex;
+    h1{
+        font-size: 60px;
+        position: absolute;
+        align-items: center;
+    }
+   
+}
+ .story{
+    display: flex;
+    // grid-template-columns: 1fr 1fr;
+    // grid-gap: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    .title{
+        font-size: 17px;
+        float:left;
+        padding-left: 105px;
+                width:20%;
+                height:280px;
+                color: gray;
+        
+    }
+    .storyDesc{
+        font-size: 20px;
+        float:left;
+        
+        width:65%;
+       
+        
+    }
+ }
+
+  hr{
+    width: 1400px;
+    background-color: lightgray;
+    
+  }    
+
+
+}

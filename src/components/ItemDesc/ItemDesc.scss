@@ -1,0 +1,24 @@
+.ItemDesc{
+    display: flex;
+    gap: 80px;
+    margin-left: 180px;
+    padding-bottom: 90px;
+    padding-top: 70px;
+
+
+    .ProductItem{
+        width: 300px;
+
+        .ProdIcon{
+            color: #D8B4F8;
+            align-items: center;
+            margin-left: 145px;
+        }
+        .productTitle{
+            text-align: center;
+            padding-top: 10px;
+            font-size: 22px;
+        }
+    }
+
+}
